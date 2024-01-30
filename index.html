@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge ONE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Sixtyfour&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Logo.png">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="div-text-glo">
+        <div>
+            <img src="Logo.png" alt="Logo" id="logo">
+        </div>
+        <div>
+            <textarea id="message" name="message" rows="25" cols="35" placeholder="Texto aqui"></textarea>
+            <div id="div-btn">
+                <button onclick="encriptar()" class="btn-acc">Encriptar</button>
+                <button onclick="desencriptar()" class="btn-acc">Desencriptar</button>
+            </div>
+        </div>
+    </div>
+    <div id="div-view">
+        <div id="div-view-cont">
+            <img src="Muñeco.png" alt="Muñeco" id="munheco">
+            <p class="txt">Ningún mensaje fue encontrado</p>
+            <p class="txt">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <p id="txt-p" style="display: none;"></p>
+            <button class="btn-acc" onclick="copy()" id="btnCopy" style="display: none;">Copiar</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

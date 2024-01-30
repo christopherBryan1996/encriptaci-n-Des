@@ -1,0 +1,92 @@
+* {
+    background: rgba(243, 245, 252, 1);
+    font-family: 'Sixtyfour', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: space-around;
+    font-size: 9px;
+}
+
+#div-text-glo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#logo{
+    width: 48px;
+    margin-top: 17px;
+    margin-left: 13px;
+    margin-bottom: 16px;
+}
+
+textarea::placeholder {
+    color: rgba(10, 56, 113, 1);
+
+}
+
+#message{
+    border: none;
+    margin: 39px 0px 42px 4px;
+    font-size: 10px;
+}
+
+#div-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-acc{
+    border-radius: 6px;
+    padding: 4px 5px 4px 5px;
+    background: rgba(10, 56, 113, 1);
+    color: white;
+    margin-bottom: 24px;
+}
+
+.btn-acc:hover{
+    color: rgba(10, 56, 113, 1);
+    background: white;
+}
+
+#div-view{
+    margin: 35px 6px 0px 3px;
+}
+
+#div-view-cont{
+    border-radius: 10px;
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#munheco{
+    width: 336px;
+    background-color: white;
+    margin: 50px 0px 42px 0px;
+}
+p {
+    background-color: white;
+    padding: 10px 16px 5px 16px;
+}
+
+#txt-p{
+    width: 336px;
+    background-color: white;
+    margin: 50px 0px 42px 0px;
+    height: 303px;
+    overflow: auto;
+}
+@media (max-width: 800px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
